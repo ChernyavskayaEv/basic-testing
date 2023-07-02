@@ -10,7 +10,7 @@ import {
 describe('BankAccount', () => {
   const initialMoney = 145;
   let newBankAccount = getBankAccount(0);
-  let otherBankAccount = getBankAccount(0);
+  const otherBankAccount = getBankAccount(0);
 
   beforeEach(() => {
     return (newBankAccount = getBankAccount(initialMoney));
